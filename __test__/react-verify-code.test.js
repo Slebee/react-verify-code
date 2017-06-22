@@ -9,6 +9,4 @@ describe('ReactVerifyCode suite',()=>{
         let wrapper = shallow(<ReactVerifyCode />)
         expect(wrapper.find('canvas').length).toEqual(1)
     })
-
-
 })
