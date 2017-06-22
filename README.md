@@ -1,6 +1,9 @@
 # react-verify-code
 A simply graphic verification code component for react.
 
+![image.png](http://upload-images.jianshu.io/upload_images/5677873-256982071d1e9cc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 # Installation
 Using npm:
 
