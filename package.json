@@ -1,15 +1,19 @@
 {
   "name": "react-verify-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A graphic verification code component for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [
     "verifiy",
     "code"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slebee/react-verify-code.git"
+  },
   "author": "slebee",
   "license": "ISC"
 }
