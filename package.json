@@ -10,6 +10,10 @@
     "verifiy",
     "code"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slebee/react-verify-code.git"
+  },
   "author": "slebee",
   "license": "ISC"
 }
