@@ -1,6 +1,6 @@
 {
   "name": "react-verify-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A graphic verification code component for react",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,16 @@
     "verifiy",
     "code"
   ],
+  "authors": [
+    "Runbin Liu <365456507@qq.com> (https://github.com/slebee)"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/slebee/react-verify-code.git"
+    "url": "https://github.com/Slebee/react-verify-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Slebee/react-verify-code/issues"
   },
   "author": "slebee",
-  "license": "ISC"
+  "license": "MIT"
 }
