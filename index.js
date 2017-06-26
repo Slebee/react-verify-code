@@ -1,1 +1,1 @@
-export default from './src/react-verify-code'
+export default from './dist/'
