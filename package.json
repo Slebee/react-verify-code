@@ -1,6 +1,6 @@
 {
   "name": "react-verify-code",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A graphic verification code component for react",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,14 @@
     "babel-preset-stage-3": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "url-loader": "^0.5.8",
     "webpack": "^2.6.0",
     "webpack-dev-server": "^2.4.5"
   },
   "keywords": [
     "verifiy",
-    "code"
+    "code",
+    "graphic-code",
+    "verification"
   ],
   "authors": [
     "Runbin Liu <365456507@qq.com> (https://github.com/Slebee)"
