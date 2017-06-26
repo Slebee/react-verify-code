@@ -33,8 +33,6 @@ ReactDOM.render(
     document.getElementById('app')
 );
 ```
-
-
 **Props**:
 
 Prop | Default | Type | Description
@@ -47,6 +45,17 @@ letters | [a-z,A-Z] | array | -
 onChange | value=>void | func | code change callback
 len | 4 | number | response string's length
 ref |"react_verify_code" | string | canvas'ref
+
+
+# Development
+Want to run demos locally
+
+```bash
+git clone https://github.com/Slebee/react-verify-code
+npm install
+npm start
+open http://localhost:8080
+```
 
 # LICENSE
 MIT
