@@ -48,3 +48,5 @@ onChange | value=>void | func | code change callback
 len | 4 | number | response string's length
 ref |"react_verify_code" | string | canvas'ref
 
+# LICENSE
+MIT

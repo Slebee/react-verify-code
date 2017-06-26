@@ -1,17 +1,35 @@
 {
   "name": "react-verify-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A graphic verification code component for react",
   "main": "index.js",
   "scripts": {
-
+    "build": "webpack --config webpack.build.config.js --progress --profile --colors",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
   },
   "keywords": [
     "verifiy",
     "code"
   ],
   "authors": [
-    "Runbin Liu <365456507@qq.com> (https://github.com/slebee)"
+    "Runbin Liu <365456507@qq.com> (https://github.com/Slebee)"
   ],
   "repository": {
     "type": "git",

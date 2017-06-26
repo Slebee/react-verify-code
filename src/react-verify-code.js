@@ -13,7 +13,6 @@ import PropTypes from 'prop-types'
 import config from './config';
 import warning from './warning'
 
-
 function randomColor(min,max) {
     return `rgb(${randomNum(min, max)},${randomNum(min, max)},${randomNum(min, max)})`;
 }
@@ -102,11 +101,12 @@ function fillCxtPrototype(ctx) {
     ctx.fill=()=>false;
 }
 
+export const version = '1.0.2';
+
 export default class VerifyCode extends Component {
     state={
         code:''
     }
-    static version = '0.0.1';
     static PropTypes = {
         width: PropTypes.number,
         height: PropTypes.number,
